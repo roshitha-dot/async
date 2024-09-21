@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <p id="a"></p>
+    <script>
+    async function bodmas(x,y) {
+        var result=await x/3*4+y-4
+        display(result)
+    }
+    function display(ans){
+        document.getElementById("a").innerHTML=ans
+    }
+    bodmas(3,8)
+    </script>
+</body>
+</html>
